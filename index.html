@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="bass.css/base.css"/>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/index2.css">
+    <script src="js/jquery-1.7.2.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/move-top.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+            });
+        });
+    </script>
+
+
+</head>
+<body>
+<!--一部分-->
+<div class="no"></div>
+<a href="#home" class="yuan scroll"></a>
+<div class="banner" id="home">
+    <div class="header-main " id="head">
+        <a class="scroll fl first"href="#home">Personal Sources</a>
+        <ul class="res clearfix">
+
+            <li><a class="scroll fl"href="#home">Home</a></li>
+            <li><a class="scroll fl"href="#about">About</a></li>
+            <li><a class="scroll fl"href="#services">Individual Works</a></li>
+            <li><a class="scroll fl"href="#gallery">Contact</a></li>
+            <li><a class="scroll fl"href="#events">More</a></li>
+
+        </ul>
+    </div>
+    <div class="header-main2 "></div>
+    <p class="dazi"></p>
+</div>
+<!--二部分-->
+<div id="about" class="about">
+    <img src="img/psd%20(15).png" class="psd15"/>
+    <img src="img/me.png" class="img"/>
+    <div class="wen">
+        <p>黄静/WEB前端</p>
+
+        <p>用指尖在键盘上挥舞，呈现给用户一个富有韵律的页面</p>
+    </div>
+    <div class="intell">
+        <ul>
+            <li><img src="img/1%20(1).png" class="fl "/></li>
+            <li><img src="img/1%20(2).png" class="fl "/></li>
+            <li><img src="img/1%20(3).png" class="fl "/></li>
+            <li><img src="img/1%20(4).png" class="fl "/></li>
+        </ul>
+    </div>
+
+    <!--   <canvas class="c1" width="900px" height="600px"></canvas>   -->
+
+</div>
+<!--三部分-->
+<div id="services">
+    <!-- 这个是第一种风格 Satrt-->
+<h1>作品展示</h1>
+
+
+    <main>
+        <ul class="ul items">
+            <li>
+                <figure class="effect-jazz">
+                    <img src="image/480_0106.jpg" >
+                    <figcaption>
+                        <h2>
+                            手风琴
+                            <br>
+                            <span>
+                                Accordion
+                            </span>
+                        </h2>
+                        <p>
+                            运动效果
+                        </p>
+                        <a href="zuopin/手风琴/手风琴.html" target="_blank">
+                            查看更多
+                        </a>
+                    </figcaption>
+                </figure>
+            </li>
+
+
+            <li>
+                <figure class="effect-jazz">
+                    <img src="img/26.png" >
+                    <figcaption>
+                        <h2>
+                            3D图片环
+                            <br>
+                            <span>
+                                Reversal
+                            </span>
+                        </h2>
+                        <p>
+                            翻转
+                        </p>
+                        <a href="zuopin/3D图片环/图片环.html" target="_blank">
+                            查看更多
+                        </a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="effect-jazz">
+                    <img src="img/25.png" >
+                    <figcaption>
+                        <h2>
+                            立方体
+                            <br>
+                            <span>
+                                Rotate
+                            </span>
+                        </h2>
+                        <p>
+                            旋转
+                        </p>
+                        <a href="zuopin/立方体旋转/立方体.html" target="_blank">
+                            查看更多
+                        </a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="effect-jazz">
+                    <img src="image/480_dreamer.jpg" >
+                    <figcaption>
+                        <h2>
+                            聚划算
+                            <br>
+                            <span>
+                                Great Deal
+                            </span>
+                        </h2>
+                        <p>
+                            移动端
+                        </p>
+                        <a href="zuopin/聚划算/聚划算.html" target="_blank">
+                            查看更多
+                        </a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="effect-jazz">
+                    <img src="img/29.png" >
+                    <figcaption>
+                        <h2>
+                            翻页效果
+                            <br>
+                            <span>
+                                Paging
+                            </span>
+                        </h2>
+                        <p>
+                            图书
+                        </p>
+                        <a href="zuopin/翻页/翻页.html" target="_blank">
+                            查看更多
+                        </a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="effect-jazz">
+                    <img src="image/480_My_Own_Secret.jpg" >
+                    <figcaption>
+                        <h2>
+                            爱奇艺
+                            <br>
+                            <span>
+                                IQIYI
+                            </span>
+                        </h2>
+                        <p>
+                            静态页
+                        </p>
+                        <a href="zuopin/爱奇艺/爱奇艺.html" target="_blank">
+                            查看更多
+                        </a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="effect-jazz">
+                    <img src="img/24.png" >
+                    <figcaption>
+                        <h2>
+                            无缝滚动
+                            <br>
+                            <span>
+                                Rolling Motion
+                            </span>
+                        </h2>
+                        <p>
+                            焦点图
+                        </p>
+                        <a href="zuopin/无缝滚动/无缝滚动3.html" target="_blank">
+                            查看更多
+                        </a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="effect-jazz">
+                    <img src="img/23.png"/>
+                    <figcaption>
+                        <h2>
+                            爆炸效果
+                            <br>
+                            <span>
+                                Blow Up
+                            </span>
+                        </h2>
+                        <p>
+                            炫酷
+                        </p>
+                        <a href="zuopin/爆炸效果/3D爆炸炫酷效果.html" target="_blank">
+                            查看更多
+                        </a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="effect-jazz">
+                    <img src="img/22.png" />
+                    <figcaption>
+                        <h2>
+                            照片墙
+                            <br>
+                            <span>
+                                Photo Wall
+                            </span>
+                        </h2>
+                        <p>
+                            交换
+                        </p>
+                        <a href="zuopin/照片墙/照片墙7.html" target="_blank">
+                            查看更多
+                        </a>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+    </main>
+</div>
+<!-- 这个是第二种风格 End-->
+
+</div>
+<!-- 第三部分 End-->
+
+<!-- 第四部分 Start-->
+<div id="gallery" >
+
+
+
+
+</div>
+<!-- 第四部分 End-->
+<div id="contact">
+    未完待续
+</div>
+
+
+
+</body>
+</html>
